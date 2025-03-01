@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Changer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="parent">
+    <label for="dropdown">Choose a color:</label>
+    <select id="dropdown">
+        <option value="">--Select--</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="orange">Orange</option>
+        <option value="blue">Blue</option>
+        <option value="purple">Purple</option>
+        <option value="crimson">Crimson</option>
+    </select>
+
+    <label for="hexInput">Or enter Hex code:</label>
+    <input type="text" id="hexInput" placeholder="#000000">
+
+    <button id="create">Create</button>
+    <div id="btns"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
